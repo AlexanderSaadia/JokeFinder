@@ -10,6 +10,8 @@
 		73F38F952FACF4590000D876 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 73F38F912FACF4590000D876 /* Assets.xcassets */; };
 		73F38F962FACF4590000D876 /* JokeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73F38F922FACF4590000D876 /* JokeView.swift */; };
 		73F38F972FACF4590000D876 /* JokeFinderApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73F38F932FACF4590000D876 /* JokeFinderApp.swift */; };
+		73F38F9D2FAD62A70000D876 /* Joke.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73F38F9C2FAD62A70000D876 /* Joke.swift */; };
+		73F38F9F2FAD62E40000D876 /* JokeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73F38F9E2FAD62E40000D876 /* JokeViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -17,6 +19,8 @@
 		73F38F912FACF4590000D876 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		73F38F922FACF4590000D876 /* JokeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JokeView.swift; sourceTree = "<group>"; };
 		73F38F932FACF4590000D876 /* JokeFinderApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JokeFinderApp.swift; sourceTree = "<group>"; };
+		73F38F9C2FAD62A70000D876 /* Joke.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Joke.swift; sourceTree = "<group>"; };
+		73F38F9E2FAD62E40000D876 /* JokeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JokeViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +66,7 @@
 		73F38F982FACF4910000D876 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				73F38F9C2FAD62A70000D876 /* Joke.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -77,6 +82,7 @@
 		73F38F9A2FACF49D0000D876 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				73F38F9E2FAD62E40000D876 /* JokeViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -162,6 +168,8 @@
 			files = (
 				73F38F962FACF4590000D876 /* JokeView.swift in Sources */,
 				73F38F972FACF4590000D876 /* JokeFinderApp.swift in Sources */,
+				73F38F9D2FAD62A70000D876 /* Joke.swift in Sources */,
+				73F38F9F2FAD62E40000D876 /* JokeViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
